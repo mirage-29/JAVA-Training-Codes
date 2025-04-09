@@ -15,11 +15,11 @@ public class weekdays {
             break;
             case 5: System.out.println("Friday");
             break;
-            case 1: System.out.println("Saturday");
+            case 6: System.out.println("Saturday");
             break;
-            case 1: System.out.println("Sunday");
+            case 7: System.out.println("Sunday");
             break;
-            default: case 1: System.out.println("Invalid input");
+            default: System.out.println("Invalid input");
             sc.close();
           
         }
