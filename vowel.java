@@ -5,7 +5,8 @@ public class vowel {
         char alphabet = sc.next().charAt(0);
         if ( alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u' )
         System.out.println("Vowel");
-        else System.out.println("consonant");
+        else if((alphabet>=97 && alphabet<=122) || (alphabet>=67 && alphabet<=92))
+        System.out.println("consonant");
 
         sc.close();
         
