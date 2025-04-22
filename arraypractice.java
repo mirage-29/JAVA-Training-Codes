@@ -14,7 +14,7 @@ public class arraypractice {
             sum += arr[i];
         }
         System.out.println("\nSum of the array elements: " + sum);
-        sc.close();
+       sc.close();
 
     }
 
