@@ -1,4 +1,4 @@
-package variables;
+//package variables;
 
 public class staticvar {
     static int a = 40;
