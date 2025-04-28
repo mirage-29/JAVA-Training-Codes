@@ -1,4 +1,4 @@
-package array;
+
 public class arraymerge {
 
     public static void main(String[] args) {

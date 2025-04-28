@@ -1,4 +1,4 @@
-package basiccodes;
+
 import java.util.Scanner;
 public class palindromnum {
     public static void main(String[] args) {

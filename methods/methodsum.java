@@ -1,3 +1,4 @@
+package methods;
 
 import java.util.Scanner;
 
@@ -15,6 +16,6 @@ public class methodsum {
 
     int sum(int a, int b) {
         return (a + b);
-    }
 
+    }
 }

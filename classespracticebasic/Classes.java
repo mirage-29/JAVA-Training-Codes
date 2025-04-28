@@ -1,4 +1,3 @@
-package classespracticebasic;
 public class Classes {
 	public static void main(String[] args) {
 		Student sc = new Student();

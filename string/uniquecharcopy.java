@@ -1,4 +1,4 @@
-package strings;
+
 public class uniquecharcopy {
     public static void main(String[] args) {
         String str = "hellllloooo";

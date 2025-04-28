@@ -1,4 +1,4 @@
-package strings;
+
 import java.util.Scanner;
 public class UcaseLcase {
     public static void main(String[] args) {
