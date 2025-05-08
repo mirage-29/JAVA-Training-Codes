@@ -1,3 +1,4 @@
+package MiscCodes;
 import java.util.Scanner;
 public class pp1string {
 
