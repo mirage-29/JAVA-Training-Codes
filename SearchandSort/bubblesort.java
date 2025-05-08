@@ -5,8 +5,10 @@ public class bubblesort {
         int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int n = arr.length;
         arr = bubble(arr, n);
+       
         for (int i : arr) {
-            System.err.println(i);
+            System.out.println(i);
+            
         }
     }
 

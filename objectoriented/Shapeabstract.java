@@ -1,7 +1,7 @@
 public class Shapeabstract {
     public static void main(String[] args) {
         Shape obj = new Circle();
-        obj.Area(23,12);
+        obj.Area(23,1);
 
         Shape obj1 = new Rectangle();
         obj1.Area(12,10);
