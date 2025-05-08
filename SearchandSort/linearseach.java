@@ -1,4 +1,4 @@
-//package SearchandSort;
+
 
 public class linearseach {
      int linearSearch(int arr[], int x) {

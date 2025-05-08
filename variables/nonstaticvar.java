@@ -1,4 +1,5 @@
-//package variables;
+package Variables;
+
 
 public class nonstaticvar {
     int a = 40;

@@ -1,3 +1,4 @@
+package String;
 
 public class uniquecharcopy {
     public static void main(String[] args) {

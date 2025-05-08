@@ -1,3 +1,4 @@
+package BasicCodes;
 //package basiccodes;
 
 import java.util.Scanner;

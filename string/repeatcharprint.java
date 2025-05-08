@@ -1,3 +1,4 @@
+package String;
 public class repeatcharprint {
 
     public static void main(String[] args) {

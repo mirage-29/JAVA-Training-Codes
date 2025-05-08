@@ -1,3 +1,4 @@
+package Array;
 
 public class sumoftwoarray {
     public static void main(String[] args) {

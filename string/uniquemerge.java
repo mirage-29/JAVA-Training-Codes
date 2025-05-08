@@ -1,3 +1,4 @@
+package String;
 
 public class uniquemerge {
     public static void main(String[] args) {
