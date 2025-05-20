@@ -11,8 +11,9 @@ public class secondmaxofarray {
         int arr[] = new int[n];
 
         int i, max, secondmax;
+        System.out.println("Enter the elements: ");
         for (i = 0; i < n; i++) {
-            System.out.println("Enter the element: ");
+            
             arr[i] = sc.nextInt();
         }
         max = arr[0];
