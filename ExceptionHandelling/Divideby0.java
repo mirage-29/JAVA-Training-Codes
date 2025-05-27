@@ -12,10 +12,11 @@ public class Divideby0 {
             int c=a/b;
 
             System.out.println("Quotient = " + c);
-        } catch(Exception zero){
-            System.out.println("Cannot Divide by 0");
+        } catch(Exception e){
+            System.out.println(e);
         }
 
         System.out.println("Program runs successfully");
+        sc.close();
     }
 }

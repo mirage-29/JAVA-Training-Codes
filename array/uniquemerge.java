@@ -1,4 +1,4 @@
-package String;
+package Array;
 
 public class uniquemerge {
     public static void main(String[] args) {
