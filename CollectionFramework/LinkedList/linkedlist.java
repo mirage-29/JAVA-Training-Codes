@@ -1,20 +1,16 @@
-package CollectionFramework;
+package CollectionFramework.LinkedList;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.LinkedList;
 
-public class Arraylist {
+public class linkedlist {
     public static void main(String[] args) {
-     
-            
-        
-        ArrayList<String> list = new ArrayList<String>();
+        LinkedList<String> list = new LinkedList<String>();
         list.add("Raunak");
         list.add("Rajnesh");
         list.add("Vidhant");
         list.add("Astha");
         list.add("Jiya");
-        System.out.println("Intial ArrayList : ");
+        System.out.println("Intial LinkedList : ");
         System.out.println(list);
         System.out.println("Adding Priyanshu after Rajnesh : ");
         list.add(2, "Priyanshu");
@@ -28,9 +24,10 @@ public class Arraylist {
             System.out.println("Jiya is not in the list");
         System.out.println("Deleting Jiya : ");
         list.remove("Jiya");
+        System.out.println(list);
        
 
-        System.out.println("Clearing all Array : ");
+        System.out.println("Clearing all Linked : ");
         list.clear();
         System.out.println(list);
     }
