@@ -20,5 +20,6 @@ public class lettercount {
         map.forEach((key, value) -> {
             System.out.println(key + " = " + value);
         });
+        sc.close();
     }
 }

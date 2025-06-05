@@ -29,6 +29,7 @@ public class Reliability {
             int n = 3;
             Reliable(n, Cost, Reliability, Maxcost);
         }
+        sc.close();
     }
 
     public static void Reliable(int n, int[] Cost, double[] Reliability, int Maxcost) {

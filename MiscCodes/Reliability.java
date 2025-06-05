@@ -1,8 +1,7 @@
 package MiscCodes;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 
@@ -56,15 +55,11 @@ public class Reliability {
          System.out.println("Maxcopies of Device " + (i + 1) + " : " + maxcopies[i]);
       }
       double S0[]={1,0};
-    ArrayList<double[]> S11 = new ArrayList<>();
-    S11.add(S0);
-    S11.add(new double[]{S0[0]*Reliability[0],S0[1]+Cost[0]});
-    for (double[] arr : S11) {
-      System.out.println(Arrays.toString(arr));
+      double S10[] ={S0[0]*Reliability[0],S0[1]+Cost[0]};
     }
 
   
     
 
    }
-}
+

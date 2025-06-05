@@ -9,7 +9,7 @@ public class Bank {
         try {
             t1.join();
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
+          
             e.printStackTrace();
         }
         t2.start();
