@@ -17,9 +17,10 @@ public class Writefile {
     
             try {
             FileWriter writer = new FileWriter(filename);
-            writer.write(string);
+            writer.append(string);
             
-            writer.write("\n");
+            
+            writer.append("\n");
             writer.close();
 
         } catch (IOException e) {
