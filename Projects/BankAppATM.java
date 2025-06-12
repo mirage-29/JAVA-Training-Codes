@@ -1,5 +1,5 @@
 import java.util.*;
-
+import FileHandelling.*;
 class Transaction {
     String type;
     double amount;
@@ -27,6 +27,7 @@ class Account {
     long phoneNumber;
     int accountNumber;
     double balance;
+
     List<Transaction> transactions;
 
     Account(String name, int accountNumber, String AadharNumber, long phoneNumber) {
@@ -46,18 +47,27 @@ class Account {
         balance += amount;
         transactions.add(new Transaction("Deposit", amount));
         System.out.println("> Rupees " + amount + " deposited successfully.");
+        System.out.println("> Current Balance: Rupees " + balance);
+        Createfile file = new Createfile("Transaction.txt");
+        Writefile file1 = new Writefile("Transaction.txt", "Name: " + name + ", Aadhar Number: " + AadharNumber + ", Phone Number: " + phoneNumber + ", Account Number: " + accountNumber + ", Transaction: Deposit of Rupees " + amount);
+
     }
 
     void withdraw(double amount) {
         if (amount <= 0) {
             System.out.println("> Invalid withdrawal amount.");
+
         } else if (amount > balance) {
             System.out.println("> Insufficient balance.");
+
         } else {
             balance -= amount;
             transactions.add(new Transaction("Withdraw", amount));
             System.out.println("> Rupees " + amount + " withdrawn successfully.");
         }
+        System.out.println("> Current Balance: Rupees " + balance);
+        Createfile file = new Createfile("Transaction.txt");        
+        Writefile file1 = new Writefile("Transaction.txt", "Name: " + name + ", Aadhar Number: " + AadharNumber + ", Phone Number: " + phoneNumber + ", Account Number: " + accountNumber + ", Transaction: Withdraw of Rupees " + amount);
     }
 
     void checkBalance() {
@@ -93,6 +103,11 @@ class Account {
             }
         }
     }
+    void showTransactionHistorybyfile(){
+        Createfile file = new Createfile("Transaction.txt");
+        System.out.println("> Transaction History from file:");
+        Readfile file1 = new Readfile("Transaction.txt");
+    }
 }
 
 public class BankAppATM {
@@ -116,6 +131,8 @@ public class BankAppATM {
         int accNumber = 100000000 + rand.nextInt(900000);
 
         Account acc = new Account(name, accNumber, AadharNumber, Mobileno);
+        Createfile file = new Createfile("AccountDetails.txt");
+        Writefile file1 = new Writefile("AccountDetails.txt", "Name: " + name + ", Aadhar Number: " + AadharNumber + ", Phone Number: " + Mobileno + ", Account Number: " + accNumber);
 
         System.out.println("> Account created successfully!");
         System.out.println("> Name: " + acc.name);
@@ -132,7 +149,8 @@ public class BankAppATM {
             System.out.println("3. Check Balance");
             System.out.println("4. View Transaction History");
             System.out.println("5. Apply for Loan ");
-            System.out.println("6. Exit");
+            System.out.println("6. View Transaction History by file");
+            System.out.println("7. Exit");
             System.out.print("> Choose an option: ");
             choice = sc.nextInt();
 
@@ -185,7 +203,14 @@ public class BankAppATM {
                       
                     }
                     break;
-                case 6:
+                       case 6:
+                    acc.showTransactionHistorybyfile();
+                      try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {                 
+                    }
+                    break;
+                case 7:
                     System.out.println("> Thank you for using the ATM. Goodbye!");
                     break;
                 default:
