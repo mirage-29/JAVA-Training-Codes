@@ -11,7 +11,7 @@ public class Bank1 {
 
 class Withdraw extends Thread {
     static int totalamount = 1000;
-    int amount;
+    int amount; 
 
     Withdraw(int amount) {
 
