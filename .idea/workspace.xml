@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="316c28ca-3664-4672-90df-15bb26122366" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/basiccodes/ASCII.class" beforeDir="false" afterPath="$PROJECT_DIR$/basiccodes/ASCII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/pattern1.class" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/pattern1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/UcaseLcase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/frequencyofchar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/frequencyofchar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/repeatcharprint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/repeatcharprint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/stringprint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/stringprint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/uniquecharcopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/uniquecharcopy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/uniquemerge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/uniquemerge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/vowel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectionFramework/HashMap/lettercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionFramework/HashMap/lettercount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectionFramework/HashMap/wordcount.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionFramework/HashMap/wordcount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

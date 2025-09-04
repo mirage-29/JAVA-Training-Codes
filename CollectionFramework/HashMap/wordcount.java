@@ -28,6 +28,7 @@ public class wordcount {
             }
        
     }
+    
    map.forEach((key, value) -> {
             System.out.println(key + " = " + value);
         });
